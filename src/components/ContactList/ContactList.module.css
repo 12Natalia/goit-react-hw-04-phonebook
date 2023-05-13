@@ -1,0 +1,30 @@
+.list {
+    padding: 0;
+    font-weight: 600;
+}
+
+.item {
+    display: flex;
+    gap: 20px;
+    width: 300px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.number {
+    font-weight: 600;
+}
+
+.button {
+    justify-content: flex-end;
+    background: #00FFFF;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 1px 10px;
+    font-weight: 600;
+}
+
+.button:hover {
+    scale: 1.25;
+    cursor: pointer;
+}
